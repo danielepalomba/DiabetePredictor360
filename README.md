@@ -31,7 +31,7 @@ Visualizziamo un'anteprima dei dati
 ```python=
 print(dtl.head())
 ```
-*Output:*
+*Output:*  
 ![Screenshot 2024-02-04 182025](img/data_analysis/Dtl_Head.png)
 
 Verifichiamo le dimensioni del dataset
@@ -39,21 +39,21 @@ Verifichiamo le dimensioni del dataset
 print('DIMENSIONE DATASET: ', dtl.shape)
 ```
 
-*Output:*
+*Output:*  
 ![Screenshot 2024-02-04 182503](img/data_analysis/Dtl_Dimension.png)
 
 Visualizziamo il tipo per ogni feature
 ```python=
 print('Tipi di dati: ', dtl.dtypes)
 ```
-*Output:*
+*Output:*  
 ![Screenshot 2024-02-04 182911](img/data_analysis/Dtl_DataTypes.png)
 
 Verifichiamo se all'interno del dataset ci sono valori nulli
 ```python=
 print('Valori nulli: \n', dtl.isnull().sum())
 ```
-*Output:*
+*Output:*  
 ![Screenshot 2024-02-04 183223](img/data_analysis/Dtl_null.png)
 
 **Il dataset non presenta valori nulli**
@@ -346,10 +346,10 @@ Riportiamo in questa sezione i risultati ottenuti per ogni modello.
 #### *Confusion Matrix*
 ![myplot](img/models_result/LR_ConfMatrix.png)
 
-**Recall: 0.8478
-Precision: 0.4285
-F1-Score: 0.5693
-Accuracy: 0.8904**
+**Recall: 0.8478  
+Precision: 0.4285  
+F1-Score: 0.5693  
+Accuracy: 0.8904**  
 
 
 #### *ROC curve*
@@ -361,10 +361,10 @@ Accuracy: 0.8904**
 
 ![myplot](img/models_result/RF_ConfMatrix.png)
 
-**Recall: 0.7535
-Precision: 0.7435
-F1-Score: 0.7485
-Accuracy: 0.9567**
+**Recall: 0.7535  
+Precision: 0.7435  
+F1-Score: 0.7485  
+Accuracy: 0.9567**  
 
 
 #### *ROC curve*
@@ -376,10 +376,10 @@ Accuracy: 0.9567**
 #### *Confusion Matrix*
 ![myplot](img/models_result/NB_ConfMatrix.png)
 
-**Recall: 0.8589
-Precision: 0.3908
-F1-Score: 0.5372
-Accuracy: 0.8736**
+**Recall: 0.8589  
+Precision: 0.3908  
+F1-Score: 0.5372  
+Accuracy: 0.8736**  
 
 #### *ROC curve*
 ![myplot1](img/models_result/NB_RocCurve.png)
