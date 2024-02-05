@@ -391,3 +391,6 @@ Dopo un'attento studio dei risultati delle metriche di valutazione ottenuti, è 
 - Dataset: https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
 - Repository: https://github.com/danielepalomba/DiabetePredictor360.git
 
+## Contatti
+Daniele Palomba - d.palomba5@studenti.unisa.it
+Filippo Vetrale - f.vetrale2@studenti.unisa.it
